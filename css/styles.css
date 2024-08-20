@@ -454,9 +454,9 @@ img {
   color: #ffffff;
 }
 .placeholder::placeholder {
-  color #ffffff; 
+  color: #ffffff; 
 }
-.footer-buttom-subscribe {
+.footer-button-subscribe {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -481,7 +481,7 @@ img {
 /* #endregion footer */
 /* #region backdrop modal */
 .backdrop {
-  position: flex;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -631,14 +631,14 @@ img {
 
 }
 .custom-checkbox {
-  border-radius: 2px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  width: 16px;
-  height: 16px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   margin-right: 8px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  width: 16px;
+  height: 16px;
   fill: transparent; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
